@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter, Route, Switch, Link } from "react-router-dom";
 import '../App.css';
 import Repos from './repos.js';
+import App from '../App.js';
 
 function Sidebar() {
   return (
@@ -12,11 +13,12 @@ function Sidebar() {
       <BrowserRouter>
         <div className="sidenav">
           <div>
+            <Link to="/">Home</Link>
             <Link to="/projects/">GitHub project</Link>
           </div>
         </div>
         <Switch>
-          <Route path="/projects" component={Repos} />      
+          <Route path="/projects" component={Repos} />
         </Switch>
       </BrowserRouter>
     </div>
