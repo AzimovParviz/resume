@@ -14,7 +14,7 @@ function Sidebar() {
         <div className="sidenav">
           <div>
             <Link to="/">Home</Link>
-            <Link to="/projects/">GitHub project</Link>
+            <Link to="/projects/">GitHub projects</Link>
           </div>
         </div>
         <Switch>
