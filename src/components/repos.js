@@ -4,15 +4,18 @@ import '../App.css';
 const links = [
     {
 	'title': 'boorupaper - set a random image from gelbooru.com as your wallpaper',
-	'url': 'https://github.com/AzimovParviz/boorupaper'
+	'url': 'https://github.com/AzimovParviz/boorupaper',
+        'image-url':''
     },
     {
 	'title': 'telegram-temperature-bot - a telegram bot that sends the temperature from the sensor',
-	'url': 'https://github.com/AzimovParviz/telegram-temperature-alert'
+	'url': 'https://github.com/AzimovParviz/telegram-temperature-alert',
+        'image-url':''
     },
     {
         'title': 'PS Vita game lister - output your games in your Vita\'s app folder in the terminal',
-        'url':'https://github.com/AzimovParviz/PSVitaGameLister'
+        'url':'https://github.com/AzimovParviz/PSVitaGameLister',
+        'image-url':''
     },
 ];
 
@@ -24,7 +27,7 @@ function Repos() {
 	    {
 		links.map(
 		    (link) =>
-		    (<li><a href={link.url}>{link.title}</a></li>)
+		    (<li><a className ="repoLink" href={link.url}>{link.title}</a></li>)
 		)
 	    }
 	</ul>

@@ -36,6 +36,7 @@
     transform: rotate(360deg);
   }
 }
+
 .sidenav {
   height: 100%;
   width: 160px;
@@ -62,4 +63,18 @@
 
 .Repos {
     margin-right: 160px;
+}
+.projectList {
+    display: table;
+    margin: 0 auto;
+    text-align: centre;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: green;
+}
+
+a:hover {
+    color: red;
 }
