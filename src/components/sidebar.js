@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter, Route, Switch, Link } from "react-router-dom";
 import '../App.css';
 import Repos from './repos.js';
+import Body from './body.js';
 import App from '../App.js';
 
 function Sidebar() {
@@ -15,10 +16,12 @@ function Sidebar() {
           <div>
             <Link to="/">Home</Link>
             <Link to="/projects/">GitHub projects</Link>
+	    <Link to="/aboutme">About Me</Link>
           </div>
         </div>
         <Switch>
           <Route path="/projects" component={Repos} />
+	  <Route path="/aboutme" component={Body}/>
         </Switch>
       </BrowserRouter>
     </div>

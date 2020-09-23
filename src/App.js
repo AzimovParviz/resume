@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
 	<h1>Welcome to WIP resume of Parviz Azimov!!!</h1>
-	<Sidebar/>
+      <Sidebar/>
     </div>
   );
 }
