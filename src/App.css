@@ -1,5 +1,9 @@
+body {
+    background-color:darkgrey;
+}
 .App {
-  text-align: center;
+    text-align: center;
+    margin-left: 160px;
 }
 
 .App-logo {
@@ -26,6 +30,10 @@
 
 .App-link {
   color: #61dafb;
+}
+
+Body {
+    /* margin-left: 160px; */
 }
 
 @keyframes App-logo-spin {
