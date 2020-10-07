@@ -1,10 +1,11 @@
 import React from 'react';
 import '../App.css';
+import bg from "../bg.png";
 
 function Header() {
     return(
         <div className="App-header">
-          <h1>HEader!!!11</h1>
+	  <div id="header-bg"><img src={bg}/></div>
         </div>
     );
 }
