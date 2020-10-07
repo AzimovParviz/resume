@@ -6,8 +6,8 @@ import Header from './components/header.js';
 function App() {
   return (
       <div className="App">
+        <Header />
         <Sidebar/>
-	<Header />
       </div>
   );
 }
