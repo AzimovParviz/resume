@@ -5,7 +5,6 @@ import portrait from '../portrait.jpg';
 function Body() {
     return(
         <div>
-          <h2>Should I bloat this simple web page</h2>
           <img id="portrait" src={portrait}></img>
           <table id="basic-info">
             <tr>

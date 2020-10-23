@@ -17,6 +17,11 @@ const links = [
         'url':'https://github.com/AzimovParviz/PSVitaGameLister',
         'image-url':''
     },
+    {
+	'title': 'Rick and Morty character database with API as a back-end',
+        'url':'https://github.com/AzimovParviz/skwebstudioassignment',
+        'image-url':''
+    }
 ];
 
 function Repos() {

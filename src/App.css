@@ -11,8 +11,14 @@ body {
   pointer-events: none;
 }
 
-#portrait {
-    float:left;
+#portrait {    
+    width: 80%;
+    height: 80%;
+}
+
+#basic-info {
+    padding-left: 40px;
+    color: white;
 }
 
 #header-bg {
@@ -57,7 +63,7 @@ Body {
 
 .sidenav {
   height: 100%;
-  width: 160px;
+  width: 360px;
   position: fixed;
   z-index: 1;
   top: 0;
