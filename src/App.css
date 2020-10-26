@@ -52,6 +52,55 @@ Body {
     /* margin-left: 160px; */
 }
 
+.homepage-flexbox {
+    display: flex;
+    flex-grow: 1;
+    height: 100%;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.skill-card {
+    border: 3px solid blue;
+    background-color: lightblue;
+    border-radius: 25px;
+    max-height: 120px;
+    min-width: 300px;
+    max-width: 500px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.skill-card:hover {
+    background-color: violet;
+    border: 3px solid blue;
+}
+
+.skill-info {
+    list-style-type: none;
+}
+/*та или иная характеристика персонажа(пол имя и тп)*/
+.card-item{
+    position: relative;
+    left: 110px;
+    bottom: 110px;
+    text-align: right;
+    font-size: 13px;
+    width: 50%;
+    flex: 1 0 200px;
+}
+
+.skill-picture {
+    position: relative;
+    //border-radius: 50%;
+    float: left;
+    right: 5px;
+    bottom: 5px;
+    width: 100px;
+    height: 100px;
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
