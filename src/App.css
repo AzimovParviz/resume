@@ -61,19 +61,19 @@ Body {
 }
 
 .skill-card {
-    border: 3px solid blue;
+    border: 2px solid blue;
     background-color: lightblue;
     border-radius: 25px;
     max-height: 120px;
     min-width: 300px;
-    max-width: 500px;
+    max-width: 400px;
     padding: 10px;
     margin-top: 10px;
 }
 
 .skill-card:hover {
     background-color: violet;
-    border: 3px solid blue;
+    border: 2px solid blue;
 }
 
 .skill-info {
@@ -82,8 +82,8 @@ Body {
 /*та или иная характеристика персонажа(пол имя и тп)*/
 .card-item{
     position: relative;
-    left: 110px;
-    bottom: 110px;
+    left: 100px;
+    bottom: 100px;
     text-align: right;
     font-size: 13px;
     width: 50%;
@@ -92,8 +92,6 @@ Body {
 
 .skill-picture {
     position: relative;
-    //border-radius: 50%;
-    float: left;
     right: 5px;
     bottom: 5px;
     width: 100px;
@@ -112,7 +110,7 @@ Body {
 
 .sidenav {
   height: 100%;
-  width: 360px;
+  width: 320px;
   position: fixed;
   z-index: 1;
   top: 0;
