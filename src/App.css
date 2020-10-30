@@ -64,7 +64,8 @@ Body {
     border: 2px solid blue;
     background-color: lightblue;
     border-radius: 25px;
-    max-height: 120px;
+    min-height: 120px;
+    max-height: 140px;
     min-width: 300px;
     max-width: 400px;
     padding: 10px;
@@ -76,10 +77,18 @@ Body {
     border: 2px solid blue;
 }
 
+.popup-text {
+    display: none;
+}
+
+.skill-card:hover .popup-text {
+    display: block;
+}
+
 .skill-info {
     list-style-type: none;
 }
-/*та или иная характеристика персонажа(пол имя и тп)*/
+
 .card-item{
     position: relative;
     left: 100px;
@@ -97,7 +106,6 @@ Body {
     width: 100px;
     height: 100px;
 }
-
 
 @keyframes App-logo-spin {
   from {

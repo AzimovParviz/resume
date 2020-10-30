@@ -8,7 +8,8 @@ function Home() {
             id: 0,
             name: "C#/.NET Core 3.0/ASP.NET",
             image: "https://upload.wikimedia.org/wikipedia/commons/7/7a/C_Sharp_logo.svg",
-            experience: "3+ years"
+            experience: "3+ years",
+            info: ".NET Core 3.0 web applications with Entity Framework, Desktop Applications with C# and WPF with SQL databases",
         },
         {
             id: 1,
@@ -38,7 +39,7 @@ function Home() {
         <div className="homepage">
           <h1>About me</h1>
           <div className="homepage-flexbox">
-            {skills.map(skill=> <SkillCard name={skill.name} experience={skill.experience} image={skill.image}/>)}
+            {skills.map(skill=> <SkillCard name={skill.name} experience={skill.experience} image={skill.image} info={skill.info}/>)}
           </div>
         </div>
     );

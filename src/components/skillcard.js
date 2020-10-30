@@ -8,6 +8,7 @@ function SkillCard (props) {
             <li className="skill-picture"><img className="skill-picture" src={props.image}/></li>
             <li className="card-item"><b>Skill: {props.name}</b></li>
             <li className="card-item"><b>Experience: {props.experience}</b></li>
+            <li className="card-item popup-text">{props.info}</li>
           </ul>
         </div>
     );
