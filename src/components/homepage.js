@@ -15,7 +15,8 @@ function Home() {
             id: 1,
             name: "Python",
             image: "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
-            experience: "1,5 years"
+            experience: "1,5 years",
+	    info: "Workplace automation, web scraping, CLI applications"
         },
         {
             id: 2,
