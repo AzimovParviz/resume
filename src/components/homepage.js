@@ -34,7 +34,8 @@ function Home() {
         {
             id: 4,
             name: "Photoshop",
-            experience: "2 years"
+            experience: "2 years",
+	    info: ""
         }
     ];
     

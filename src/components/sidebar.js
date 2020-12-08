@@ -7,26 +7,35 @@ import Home from './homepage.js';
 import App from '../App.js';
 
 function Sidebar() {
-  return (
-    <div className="App">
-    	    {/* <a href="../index.js">Home</a> */}
-    	    {/* <a href="./repos.js">GitHub projects</a> */}
-    	  {/* <a href="#contact">Contact</a> */}
-      <BrowserRouter>
-        <div className="sidenav">
-          <div>
-            <Link to="/resume">Home</Link>
-            <Link to="/resume/projects/">GitHub projects</Link>
-            <Body/>
-          </div>
+    
+    function closeNav(e) {
+        e.preventDefault();
+        document.getElementById("sidenav").style.width = "0";
+        //document.getElementById("sidenav-button-open").style.display = "block";
+    }
+    
+    function openNav(e) {
+        e.preventDefault();
+        document.getElementById("sidenav").style.width = "320px";
+        //document.getElementById("sidenav-button-open").style.display = "none";
+    }
+    return (
+        <div>
+          <a id="sidenav-button-open" onClick={openNav}>☰</a>
+          <BrowserRouter>
+            <div id="sidenav">
+              <a href="#" id="sidenav-button-close" onClick={closeNav}>×</a>            
+              <Link to="/resume">Home</Link>
+              <Link to="/resume/projects/">GitHub projects</Link>
+              <Body/>
+            </div>
+            <Switch>
+              <Route path="/resume/projects" component={Repos} />
+	      <Route path="/resume" component={Home}/>
+            </Switch>
+          </BrowserRouter>
         </div>
-        <Switch>
-          <Route path="/resume/projects" component={Repos} />
-	  <Route path="/resume" component={Home}/>
-        </Switch>
-      </BrowserRouter>
-    </div>
-  );
+    );
 }
 
 export default Sidebar;

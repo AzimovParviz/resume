@@ -6,7 +6,7 @@ body {
 
 .App {
     text-align: center;
-    margin-left: 160px;
+    //margin-left: 160px;
 }
 
 .App-logo {
@@ -24,10 +24,10 @@ body {
     color: white;
 }
 
-#header-bg {
-    width:100%;
-    overflow: hidden;
-}
+/* #header-bg { */
+/*     width:100%; */
+/*     overflow: hidden; */
+/* } */
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -35,17 +35,17 @@ body {
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 7vh;
-  max-height: 20vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+/* .App-header { */
+/*   background-color: #282c34; */
+/*   min-height: 7vh; */
+/*   max-height: 20vh; */
+/*   display: flex; */
+/*   flex-direction: column; */
+/*   align-items: center; */
+/*   justify-content: center; */
+/*   font-size: calc(10px + 2vmin); */
+/*   color: white; */
+/* } */
 
 .App-link {
   color: #61dafb;
@@ -80,7 +80,7 @@ Body {
 }
 
 .popup-text {
-    display: none;
+    display: block;
 }
 
 .skill-card:hover .popup-text {
@@ -118,9 +118,9 @@ Body {
   }
 }
 
-.sidenav {
+#sidenav {
   height: 100%;
-  width: 320px;
+  width: 0;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -130,7 +130,7 @@ Body {
   padding-top: 20px;
 }
 
-.sidenav a {
+#sidenav a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 25px;
@@ -138,8 +138,25 @@ Body {
   display: block;
 }
 
-.sidenav a:hover {
+#sidenav a:hover {
   color: #f1f1f1;
+}
+
+#sidenav-button-close {
+    float: right;
+    font-size: 36px;
+    top: 0;
+    bottom: 20px;
+    right: 10px;
+}
+
+#sidenav-button-open {
+    left: 0;
+    margin-right: 95%;
+    font-size: 40px;
+    cursor: pointer;
+    border: none;
+    color: greenyellow;
 }
 
 .Repos {
