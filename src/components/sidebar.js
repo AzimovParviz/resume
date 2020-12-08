@@ -16,13 +16,13 @@ function Sidebar() {
         <div className="sidenav">
           <div>
             <Link to="/resume">Home</Link>
-            <Link to="/projects/">GitHub projects</Link>
+            <Link to="/resume/projects/">GitHub projects</Link>
             <Body/>
           </div>
         </div>
         <Switch>
-          <Route path="/projects" component={Repos} />
-	  <Route path="/" component={Home}/>
+          <Route path="/resume/projects" component={Repos} />
+	  <Route path="/resume" component={Home}/>
         </Switch>
       </BrowserRouter>
     </div>
