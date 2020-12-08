@@ -15,7 +15,7 @@ function Sidebar() {
       <BrowserRouter>
         <div className="sidenav">
           <div>
-            <Link to="/">Home</Link>
+            <Link to="/resume">Home</Link>
             <Link to="/projects/">GitHub projects</Link>
             <Body/>
           </div>
