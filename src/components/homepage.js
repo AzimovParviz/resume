@@ -20,14 +20,16 @@ function Home() {
         },
         {
             id: 2,
-            name: "React.js/Node.js/MongoDB",
-            image: "https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fmiro.medium.com%2Fmax%2F2600%2F1%2AFVtCyRdJ6KOr4YswTtwMeA.jpeg&sp=1603728567T24cef6f9fe743a70e1e256eb46d41630b2b94b38ead268cb039fd0559a49fab9",
+            name: "React.js/Node.js/MongoDB stack",
+            image: "",
             experience: "6 months",
+	    info: "Various online courses. This website is also made with this stack"
         },
         {
             id: 3,
             name: "MSSQL, MySQL, MongoDB",
             experience: "2 years",
+	    info: "Database management for web and desktop applications"
         },
         {
             id: 4,
