@@ -16,11 +16,6 @@ const links = [
         'title': 'PS Vita game lister - output your games in your Vita\'s app folder in the terminal',
         'url':'https://github.com/AzimovParviz/PSVitaGameLister',
         'image-url':''
-    },
-    {
-	'title': 'Rick and Morty character database with API as a back-end',
-        'url':'https://github.com/AzimovParviz/skwebstudioassignment',
-        'image-url':''
     }
 ];
 
