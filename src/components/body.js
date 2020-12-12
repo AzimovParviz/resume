@@ -8,16 +8,8 @@ function Body() {
           <img id="portrait" src={portrait}></img>
           <table id="basic-info">
             <tr>
-              <td>Telephone: </td>
-              <td>88005353535</td>
-            </tr>
-            <tr>
               <td>E-mail: </td>
-              <td>user.name@email.com</td>
-            </tr>
-            <tr>
-              <td>Adress:</td>
-              <td>Lenina 69, 42000</td>
+              <td>parviz.azimov@student.lab.fi</td>
             </tr>
           </table>
         </div>

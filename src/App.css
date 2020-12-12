@@ -171,6 +171,10 @@ Body {
     opacity: 1;
 }
 
+.repoLink {
+    white-space: pre-wrap;
+}
+
 a {
     text-decoration: none;
     color: green;

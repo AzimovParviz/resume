@@ -16,6 +16,11 @@ const links = [
         'title': 'PS Vita game lister - output your games in your Vita\'s app folder in the terminal',
         'url':'https://github.com/AzimovParviz/PSVitaGameLister',
         'image-url':''
+    },
+    {
+	'title': 'holo-cli - use command line to start a hololive stream using mpv',
+	'url': 'https://github.com/AzimovParviz/holo-cli',
+	'image-url':''
     }
 ];
 
