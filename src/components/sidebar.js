@@ -4,7 +4,6 @@ import '../App.css';
 import Repos from './repos.js';
 import Body from './body.js';
 import Home from './homepage.js';
-import App from '../App.js';
 
 function Sidebar() {
     
@@ -21,7 +20,7 @@ function Sidebar() {
     }
     return (
         <div>
-          <a id="sidenav-button-open" onClick={openNav}>☰</a>
+            <a id="sidenav-button-open" onClick={openNav} href="#">☰</a>
           <BrowserRouter>
             <div id="sidenav">
               <a href="#" id="sidenav-button-close" onClick={closeNav}>×</a>            

@@ -18,7 +18,7 @@ const links = [
         'image-url':''
     },
     {
-	'title': 'holo-cli - use command line to start a hololive stream using mpv',
+	'title': 'holo-cli - use command line to start a hololive stream(s) using mpv',
 	'url': 'https://github.com/AzimovParviz/holo-cli',
 	'image-url':''
     }
