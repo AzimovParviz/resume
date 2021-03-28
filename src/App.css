@@ -1,7 +1,11 @@
+html, body {
+    overflow-x: hidden;
+}
 body {
     background-color:darkgrey;
     background-image: url("./site-bg.jpg");
     background-attachment: fixed;
+    position: relative;
 }
 
 .App {
@@ -107,6 +111,22 @@ Body {
     bottom: 5px;
     width: 100px;
     height: 100px;
+    animation: App-logo-spin 8s infinite linear;
+}
+
+.weather-card {
+    background-color: yellow;    
+    width: 250px;
+    float: none;
+    margin-left: 10%;
+}
+
+.weather-info {
+    list-style-type: none;
+}
+
+.weather-item {
+    
 }
 
 @keyframes App-logo-spin {
@@ -157,6 +177,7 @@ Body {
     cursor: pointer;
     border: none;
     color: greenyellow;
+    
 }
 
 .projectList {

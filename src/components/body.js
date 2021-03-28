@@ -1,6 +1,7 @@
 import React from 'react';
 import '../App.css';
 import portrait from '../portrait.jpg';
+import Weather from './weather.js';
 
 function Body() {
     return(
@@ -12,6 +13,7 @@ function Body() {
               <td>parviz.azimov@student.lab.fi</td>
             </tr>
           </table>
+          <Weather/>
         </div>
     );
 }

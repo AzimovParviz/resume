@@ -7,7 +7,7 @@ function Home() {
         {
             id: 0,
             name: "C#/.NET Core 3.0/ASP.NET",
-            image: "https://upload.wikimedia.org/wikipedia/commons/7/7a/C_Sharp_logo.svg",
+            image: "https://raw.githubusercontent.com/dotnet/docs/cb475ed45f881e9462e34764480d3b0ebce85e91/docs/images/hub/csharp.svg",
             experience: "3+ years",
             info: ".NET Core 3.0 web applications with Entity Framework, Desktop Applications with C# and WPF with SQL databases",
         },
